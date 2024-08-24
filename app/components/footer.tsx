@@ -1,3 +1,6 @@
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+
 function ArrowIcon() {
   return (
     <svg
@@ -18,7 +21,7 @@ function ArrowIcon() {
 export default function Footer() {
   return (
     <footer className="mb-16">
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-black-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
@@ -28,7 +31,7 @@ export default function Footer() {
             download
           >
             <ArrowIcon />
-            <p className="ml-2 h-7">resume</p>
+            <p className="ml-2 h-7">Resume</p>
           </a>
         </li>
         <li>
@@ -38,8 +41,8 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/stowu2005"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+            <FaGithub />
+            <p className="ml-2 h-7">GitHub</p>
           </a>
         </li>
         <li>
@@ -47,10 +50,10 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://linkedin.com"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">original template</p>
+            <FaLinkedin />
+            <p className="ml-2 h-7">LinkedIn</p>
           </a>
         </li>
       </ul>
