@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
 
 
 function ArrowIcon() {
@@ -28,7 +29,7 @@ export default function Header() {
     Tony Wu
     </a>
   </h1>
-  <ul className=" font-sm ml-12 mt-1 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+  <ul className="font-sm ml-12 mt-1 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
     <li>
       <a
         className="flex items-center transition-all hover:text-neutral-300 dark:hover:text-neutral-500"
@@ -61,6 +62,17 @@ export default function Header() {
       >
         <FaLinkedin transform="translate(0 -1.5)" size={14}/>
         <p className="ml-2 h-7">LinkedIn</p>
+      </a>
+    </li>
+    <li>
+      <a
+        className="flex items-center transition-all hover:text-neutral-300 dark:hover:text-neutral-500"
+        rel="noopener noreferrer"
+        target="_blank"
+        href="mailto:tonywu@uw.edu"
+      >
+        <MdOutlineEmail transform="translate(0 -1.5)" size={16}/>
+        <p className="ml-2 h-7">Contact</p>
       </a>
     </li>
   </ul></header>)
