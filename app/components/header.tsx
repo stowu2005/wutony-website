@@ -23,7 +23,7 @@ export default function Header() {
     return (<header><h1 className="m-0 text-8xl font-bold">
     <a
     href={'/'}
-    className="transition-all hover:text-neutral-300 hover:font-bold dark:hover:text-neutral-200"
+    className="transition-all hover:text-neutral-300 hover:font-bold dark:hover:text-neutral-500"
     >
     Tony Wu
     </a>
