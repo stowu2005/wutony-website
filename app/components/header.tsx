@@ -21,15 +21,14 @@ function ArrowIcon() {
 }
 
 export default function Header() {
-    return (<header><h1 className="m-0 text-8xl font-bold">
+    return (<header><h1 className="flex justify-center transition-all m-0 text-8xl font-bold hover:scale-110 delay-150 hover:-translate-y-3 hover:translate-x-1">
     <a
     href={'/'}
-    className="transition-all hover:text-neutral-300 hover:font-bold dark:hover:text-neutral-500"
     >
     Tony Wu
     </a>
   </h1>
-  <ul className="font-sm ml-12 mt-1 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
+  <ul className="font-sm flex justify-center mt-1 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
     <li>
       <a
         className="flex items-center transition-all hover:text-neutral-300 dark:hover:text-neutral-500"
