@@ -35,7 +35,6 @@ export default function Header() {
         rel="noopener noreferrer"
         target="_blank"
         href="/Tony_Wu_Resume.pdf"
-        download
       >
         <ArrowIcon />
         <p className="ml-2 h-7">Resume</p>
