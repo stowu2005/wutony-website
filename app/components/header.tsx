@@ -73,5 +73,8 @@ export default function Header() {
         <p className="ml-2 h-7">Contact</p>
       </a>
     </li>
-  </ul></header>)
+  </ul>
+  <hr className="mt-2 border-1 border-neutral-200"></hr>
+    </header>
+  )
 }
