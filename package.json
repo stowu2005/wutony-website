@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev -p",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p"
+    "start": "next start"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.0.0-alpha.13",
