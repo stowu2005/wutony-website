@@ -56,7 +56,7 @@ export default function Header() {
         className="flex items-center transition-all hover:text-neutral-300 dark:hover:text-neutral-500"
         rel="noopener noreferrer"
         target="_blank"
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/tony-w-baab75325/"
       >
         <FaLinkedin transform="translate(0 -1.5)" size={14}/>
         <p className="ml-2 h-7">LinkedIn</p>
