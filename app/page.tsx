@@ -59,11 +59,6 @@ export default function Page() {
         href="/projects">
           <b>projects</b>
         </Link> page.</p>
-      <p className="mb-16">To read my blog, go to the <Link
-        className="transition-all hover:text-neutral-400 dark:hover:text-neutral-400 text-neutral-800 dark:text-neutral-50"
-        href="/blog">
-          <b>blog</b>
-        </Link> page.</p>
     </section>
   )
 }
