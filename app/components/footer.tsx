@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="text-sm mb-16 text-neutral-400">
       <p className="flex justify-center mt-8 dark:text-neutral-600">
-        Last Updated December 2024
+        Last Updated March 2025
       </p>
       <p className="flex justify-center dark:text-neutral-600">
         <a className="transition-all hover:text-neutral-300 dark:hover:text-neutral-400
